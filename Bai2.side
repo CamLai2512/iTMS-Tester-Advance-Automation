@@ -1,0 +1,92 @@
+{
+  "id": "8047b0be-98ef-4d69-9d6f-bee3b622c9b2",
+  "version": "2.0",
+  "name": "Bai2",
+  "url": "https://itmscoaching.herokuapp.com",
+  "tests": [{
+    "id": "878a753f-e20e-4df6-ba89-38d76665c0b9",
+    "name": "Bai 2",
+    "commands": [{
+      "id": "a926acdb-8fb9-4f2d-9ce7-95cb9c279c96",
+      "comment": "",
+      "command": "open",
+      "target": "/switch-window",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ad84f4b-a815-440c-9dc5-b6490ec6d41b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "775x767",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fbdcfa3-22f9-4e0b-96e5-ba271637d300",
+      "comment": "",
+      "command": "click",
+      "target": "id=new-tab-button",
+      "targets": [
+        ["id=new-tab-button", "id"],
+        ["css=#new-tab-button", "css:finder"],
+        ["xpath=//button[@id='new-tab-button']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open new tab')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2725",
+      "windowTimeout": 2000
+    }, {
+      "id": "8be07adf-4647-43f3-aece-ba204a52f8a5",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25682bde-3ab6-463c-af4e-5c2f4683108c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2725}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89cfde94-11a4-4297-9800-b66266af815c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d1d6aab-1a0c-41dd-9027-2b74e3435582",
+      "comment": "",
+      "command": "click",
+      "target": "id=alert-button",
+      "targets": [
+        ["id=alert-button", "id"],
+        ["css=#alert-button", "css:finder"],
+        ["xpath=//button[@id='alert-button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open alert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3458d48-c9da-408f-b9fc-6bea259a12c6",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "This is a test alert!",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "512440cd-2d37-42b3-a7e6-1bb1bba281c5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["878a753f-e20e-4df6-ba89-38d76665c0b9"]
+  }],
+  "urls": ["https://itmscoaching.herokuapp.com/"],
+  "plugins": []
+}
