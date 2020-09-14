@@ -1,0 +1,150 @@
+{
+  "id": "966a5a73-b436-4caf-a18b-5702ec6a4950",
+  "version": "2.0",
+  "name": "Bai3",
+  "url": " http://automationpractice.com/index.php",
+  "tests": [{
+    "id": "a4eb009c-ff66-4056-b3b5-0e19f805af48",
+    "name": "Baif 3",
+    "commands": [{
+      "id": "6fe6f6f0-00a0-4a84-af12-0db45cd78d6b",
+      "comment": "",
+      "command": "open",
+      "target": "http://automationpractice.com/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e9763ad-eeb6-4570-883b-81e285d622a9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "775x767",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3d07542-62bf-4e52-9011-07ae31ea2db1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.row > a > .img-responsive",
+      "targets": [
+        ["css=.row > a > .img-responsive", "css:finder"],
+        ["xpath=//img[contains(@src,'http://automationpractice.com/modules/blockbanner/img/sale70.png')]", "xpath:img"],
+        ["xpath=//header[@id='header']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cad2c12-2211-41a6-aa70-4fcb6c45efb1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.row > a > .img-responsive",
+      "targets": [
+        ["css=.row > a > .img-responsive", "css:finder"],
+        ["xpath=//img[contains(@src,'http://automationpractice.com/modules/blockbanner/img/sale70.png')]", "xpath:img"],
+        ["xpath=//header[@id='header']/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "713e1fe5-13e4-4d8e-b4d7-d6f420faceff",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_block_top",
+      "targets": [
+        ["id=search_block_top", "id"],
+        ["css=#search_block_top", "css:finder"],
+        ["xpath=//div[@id='search_block_top']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div[3]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98cbb685-db61-44b3-8e4a-a8cd0cd95c67",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6849fe6a-182e-4b9e-8676-3bdf37fe5a39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.login", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?controller=my-account']", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f84bb4cb-d918-4bb8-8e5b-385f784a99ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=columns",
+      "targets": [
+        ["id=columns", "id"],
+        ["css=#columns", "css:finder"],
+        ["xpath=//div[@id='columns']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "711db094-6cf2-45f2-b74b-d63a58e89d3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=center_column",
+      "targets": [
+        ["id=center_column", "id"],
+        ["css=#center_column", "css:finder"],
+        ["xpath=//div[@id='center_column']", "xpath:attributes"],
+        ["xpath=//div[@id='columns']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "776ad3c7-094d-47f2-a4c5-4e76f85e3a30",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Login - My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce54ac63-f002-4a43-9520-a256d76f57dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SubmitLogin > span",
+      "targets": [
+        ["css=#SubmitLogin > span", "css:finder"],
+        ["xpath=//button[@id='SubmitLogin']/span", "xpath:idRelative"],
+        ["xpath=//p[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "002038dd-62a6-409f-b0ac-f6b88a597654",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=ol > li",
+      "targets": [
+        ["css=ol > li", "css:finder"],
+        ["xpath=//div[@id='center_column']/div/ol/li", "xpath:idRelative"],
+        ["xpath=//ol/li", "xpath:position"],
+        ["xpath=//li[contains(.,'An email address required.')]", "xpath:innerText"]
+      ],
+      "value": "An email address required."
+    }]
+  }],
+  "suites": [{
+    "id": "556e685a-0f29-434a-a391-1e7a04694a07",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a4eb009c-ff66-4056-b3b5-0e19f805af48"]
+  }],
+  "urls": [],
+  "plugins": []
+}
